@@ -1,7 +1,14 @@
 import React from "react";
+import Profile from "./Profile";
+import Alert from "./Alert";
 
 function App() {
-  return <div>hello</div>;
+  return (
+    <>
+      <Profile />
+      <Alert />
+    </>
+  );
 }
 
 export default App;
